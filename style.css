@@ -1,0 +1,250 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(131, 131, 131);
+}
+.container_header1{
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: auto;
+    vertical-align: middle;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    margin-left: 950px;
+}
+.header_item{
+    margin-left: 15px;
+}
+.header{
+    background: url(Фото/фон3.png);
+    background-size: 1500px 600px;
+    height: 600px;
+    color: aliceblue;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    margin-bottom: -20px;
+}
+.header_text1{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 6px;
+}
+.header_title2{
+    font-size: 40px;
+}
+.header_text2{
+    font-size: 20px;
+    margin-left: 80px;
+}
+.container_header2{
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+
+
+
+.container_main1{
+    display: flex;
+}
+.main_section2{
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+.main_section1{
+    background-color: black;
+    color:aliceblue;
+    padding: 150px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+.main_img1{
+    width: 500px;
+    margin-left: 200px;
+}
+.main_text1{
+    max-width: 400px;
+}
+.main_title1{
+    margin-left: 150px;
+    font-size: 35px;
+}
+.main{
+    margin-bottom: -13px;
+}
+
+.au1{
+    height: 40px;
+}
+.container_main_au{
+    margin-left: 550px;
+    width: 350px;
+}
+
+.au1_btn{
+    width: 300px;
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+}
+.main_title2{
+    margin-left: 55px;
+}
+.au1_1{
+    background-color: rgb(53, 53, 53);
+}
+.container_au1{
+    display: flex;
+    margin-bottom: 5px;
+}
+.img_au1{
+    width: 90px;
+}
+.button_au1{
+    width: 300px;
+    background-color: black;
+}
+
+
+.footer_list{
+    list-style: none;
+    display: flex;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 2;
+    width: 98.8%;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: -13px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    border-top: 1px solid rgb(131, 131, 131);
+}
+.footer_title1{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: -15px;
+}
+.footer_img{
+    width: 16px;
+}
+.footer_item{
+    margin-left: 300px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.footer_text1{
+    margin-top: -2px;
+}
+.btn_footer{
+    background-color: black;
+    color: aliceblue;
+    width: 70px;
+    
+}
+
+@media(max-width:390px) {
+    .body{
+      background-color: rgb(131, 131, 131);
+      font-size: 9px;
+    }
+
+
+
+    .header{
+        background-size: 390px 180px;
+        height: 190px; 
+        color: aliceblue;
+        border-bottom: 1px solid rgb(131, 131, 131); 
+    }
+    .header_text1{
+        font-size: 15px;
+        margin-top:13px;
+        margin-left: -0.1px;
+    }
+    .container_header1{ 
+        display: flex;
+        border-bottom: 1px solid rgb(131, 131, 131); 
+        padding: auto; 
+        vertical-align: middle; 
+    } 
+    .header_list{ 
+        display: flex; 
+        list-style: none; 
+        margin-left: 80px; 
+    } 
+    .header_item{ 
+        margin-left: 5px; 
+    } 
+
+    .header_title2{ 
+        font-size: 15px; 
+    } 
+    .header_text2{ 
+        font-size: 8px; 
+        margin-left: 20px; 
+    } 
+    .container_header2{ 
+        margin-left: 80px; 
+        margin-top: 50px; 
+    } 
+
+
+
+
+
+    .main_img1{
+        height: 120px;
+        width: 180px;
+        margin-left: 20px;
+    } 
+    .main_text1{
+        max-width: 90px;
+    }
+    .main_title1{ 
+        margin-left: 10px; 
+        font-size: 25px; 
+    } 
+    .container_main1{
+        margin-left: 20px;
+        display: table;
+    }
+    .container_main2{
+        margin-left: 70px;
+    }
+    .container_main_au{
+        margin-left: 100px;
+        font-size: 6.5px;
+    }
+    .au1{
+        height: 15px;
+        width:150px;
+        font-size:6.5px;
+    }
+    .img_au1{
+        width:30px;
+    }
+    .au1_btn{
+        width:150px;
+        font-size: 5px;
+    }
+    .main_section1{
+        padding: 50px;
+    }
+
+    .footer_img{
+        width: 5px;
+    }
+    .footer_item{
+        margin-left: 30px;
+        font-size: 10px;
+    }
+    .btn_footer{
+        width: 50px;
+        font-size: 10px;
+    }
+
+
+}
